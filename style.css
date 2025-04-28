@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-family: 'Kanit';
+    font-weight: 400;
+}
+
+.typecontain{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+i{
+    margin-top: 23px;
+    cursor: pointer;
+}
+body{
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23838284' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+input{
+    width: 400px;
+    height: 45px;
+    border: 2px solid gray;
+    border-radius: 15px;
+    font-family: 'Kanit';
+    font-weight: 400;
+    font-size: 25px;
+    padding-left: 15px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.header{
+    width: 1200px;
+    height: 70px;
+    background-color: #161b72;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.texthead{
+    color: white;
+    margin-left: 40px;
+    font-size: 40px;
+}
+.row1,.row2{
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+}
+.feelcontain{
+    display: flex;
+    flex-direction: column;
+}
+.citytext{
+    margin-top: -20px;
+    margin-bottom: 10px;
+    font-size: 60px;
+    color: #161b72;
+}
+.tempfeel{
+    background-color: #0087ff;
+    width: 530px;
+    height: 240px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+.col1{
+    display: flex;
+    margin-left: 20px;
+}
+.col2{
+    display: flex;
+    margin-left: 80px;
+}
+.maincontain{
+    background-color: #ff9300;
+    width: 650px;
+    height: 300px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+}
+.suncontain{
+    width: 530px;
+    height: 230px;
+    background-color: #00d7de;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+}
+.humidcontain{
+    width: 315px;
+    height: 230px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    background-color: #00d18c;
+}
+.windcontain{
+    width: 315px;
+    height: 230px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    background-color: #fa8330;
+}
+.bi{
+    margin-left: 50px;
+}
+.feeltemptext{
+    color: white;
+    font-size: 70px;
+    margin-left: 35px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.feeltemptext2{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.maincontain{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.temptext{
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    font-size: 100px;
+    margin-top: 20px;
+}
+.hltemp{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 85px;
+}
+.suncontain{
+    align-items: center;
+}
+.risesetel{
+    margin-left: 35px;
+}
+.risetext{
+    color:white;
+    font-weight: 400;
+    font-size: 35px;
+}
+.humidcontain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.windcontain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.col3{
+    display: flex;
+    gap: 25px;
+}
+.humidtext{
+    color: white;
+    margin-top: 30px;
+}
+.humidtext2{
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.col4{
+    display: flex;
+    gap: 20px;
+}
+.windtext{
+    margin-top: 30px;
+    color: white;
+}
+.windtext2{
+    margin-top: 10px;
+    color: white;
+    font-size: 30px;
+}
