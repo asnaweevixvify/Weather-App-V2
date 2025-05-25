@@ -11,7 +11,7 @@ let typeText = document.getElementById('typeText')
 let cityTextEl = document.getElementById('citytext')
 const btn = document.getElementById('btn')
 btn.addEventListener('click',function(){
-    const key = 'f65dd5dbca64eead86e87f1dec1160d3'
+    const key = ''
     let city = typeText.value
     let country = 'th'
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&appid=${key}`
